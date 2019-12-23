@@ -33,10 +33,11 @@ input {
     height: 60px;
     border: none;
     font-size: 30px;
+    color: white;
     outline: none;
     text-align: right;
     border-radius: 15px 15px 5px 5px; 
-    background-color: rgb(83, 82, 82);
+    background-color: rgb(58, 57, 57);
 }
 .input {
     grid-column: 1/-1;
