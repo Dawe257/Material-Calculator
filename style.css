@@ -1,7 +1,6 @@
 body {
     /* background-color: rgba(90, 219, 252, 0.534); */
     user-select: none;
-    font-family: "Nova Flat";
 }
 .container {
     display: grid;
