@@ -5,36 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="index.js"></script>
     <title>Material Calculator</title>
 </head>
 <body>
     <div class="container">
         <div class="item input"><form name="form"><input type="text" name="textview" readonly></form></div>
-        <div class="item clean" onclick="clean()">C</div>
-        <div class="item back" onclick="back()"><img src="src/backspace1.png" width="40px" height="40px"></div>
-        <div class="item" onclick="insert('+')">+</div>
-        <div class="item" onclick="insert('-')">-</div>
-        <div class="item" onclick="insert('*')">&times;</div>
-        <div class="item" onclick="insert('/')">&divide;</div>
-        <div class="item number" onclick="insert('7')">7</div>
-        <div class="item number" onclick="insert('8')">8</div>
-        <div class="item number" onclick="insert('9')">9</div>
-        <div class="item" onclick="insert('(')">(</div>
-        <div class="item number" onclick="insert('4')">4</div>
-        <div class="item number" onclick="insert('5')">5</div>
-        <div class="item number" onclick="insert('6')">6</div>
-        <div class="item" onclick="insert(')')">)</div>
-        <div class="item number" onclick="insert('1')">1</div>
-        <div class="item number" onclick="insert('2')">2</div>
-        <div class="item number" onclick="insert('3')">3</div>
-        <div class="item equal" onclick="equal()">=</div>
-        <div class="item zero" onclick="insert('0')">0</div>
-        <div class="item" onclick="insert('.')">.</div>
+        <div class="item clean btn bubble left" onclick="clean()">C</div>
+        <div class="item back btn bubble left" onclick="back()"><img src="src/backspace1.png" width="40px" height="40px"></div>
+        <div class="item btn bubble left" onclick="insert('+')">+</div>
+        <div class="item btn bubble left" onclick="insert('-')">-</div>
+        <div class="item btn bubble left" onclick="insert('*')">&times;</div>
+        <div class="item btn bubble left" onclick="insert('/')">&divide;</div>
+        <div class="item number btn bubble left" anim="ripple" onclick="insert('7')">7</div>
+        <div class="item number btn bubble left" onclick="insert('8')">8</div>
+        <div class="item number btn bubble left" onclick="insert('9')">9</div>
+        <div class="item btn bubble left" onclick="insert('(')">(</div>
+        <div class="item number btn bubble left" onclick="insert('4')">4</div>
+        <div class="item number btn bubble left" onclick="insert('5')">5</div>
+        <div class="item number btn bubble left" onclick="insert('6')">6</div>
+        <div class="item btn bubble left" onclick="insert(')')">)</div>
+        <div class="item number btn bubble left" onclick="insert('1')">1</div>
+        <div class="item number btn bubble left" onclick="insert('2')">2</div>
+        <div class="item number btn bubble left" onclick="insert('3')">3</div>
+        <div class="item equal btn bubble left" onclick="equal()">=</div>
+        <div class="item zero btn bubble left" onclick="insert('0')">0</div>
+        <div class="item btn bubble left" onclick="insert('.')">.</div>
     </div>
-    <script>
-    </script>
 </body>
 
 </html>
